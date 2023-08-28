@@ -1,0 +1,241 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(16, 16, 29);
+    background-image: url(../assets/giphy.gif);
+    background-size: cover;
+    font-family: sans-serif;
+  }
+  h1{
+    color:orange
+  }
+  .container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+  }
+  #salario{
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid orange;
+    color: orange;
+    outline: none;
+    background-color: black;
+  }
+  #calcular{
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid orange;
+    color: orange;
+    background-color: black;
+    transition: ease-in-out 0.5s;
+  }
+  #calcular:hover{
+    background-color: white;
+
+  }
+  #resultado{
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid orange;
+    color: orange;
+    background-color: black;
+  }
+
+  @media screen and (max-width: 767px) {
+    h1{
+      color:orange;
+      font-size:auto;
+    }
+    .container{
+      display: flex;
+      flex-direction: column;
+      margin-top: 150px;
+      width: auto;
+      height: auto;
+    }
+    #salario{
+      margin-bottom: 10px;
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid orange;
+      color: orange;
+      outline: none;
+      background-color: black;
+    }
+    #calcular{
+      margin-top: 10px;
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid orange;
+      color: orange;
+      background-color: black;
+      transition: ease-in-out 0.5s;
+    }
+    #calcular:hover{
+      background-color: white;
+  
+    }
+    #resultado{
+      margin-top: 10px;
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid orange;
+      color: orange;
+      background-color: black;
+    }
+  }
+  @media screen and (max-width: 480px){
+    h1{
+      color:orange;
+      font-size: 25px;
+    }
+    .container{
+      display: flex;
+      flex-direction: column;
+      margin-top: 150px;
+      width: auto;
+      height: auto;
+    }
+    #salario{
+      margin-bottom: 10px;
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid orange;
+      color: orange;
+      outline: none;
+      background-color: black;
+      font-size: 5px;
+    }
+    #calcular{
+      margin-top: 10px;
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid orange;
+      color: orange;
+      background-color: black;
+      transition: ease-in-out 0.5s;
+    }
+    #calcular:hover{
+      background-color: white;
+  
+    }
+    #resultado{
+      margin-top: 10px;
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid orange;
+      color: orange;
+      background-color: black;
+      width: auto;
+      height: auto;
+    }
+  }
+
+  
+  @media screen and (max-width: 480px){
+    h1{
+      color:orange;
+      font-size: 25px;
+    }
+    .container{
+      display: flex;
+      flex-direction: column;
+      margin-top: 150px;
+      width: auto;
+      height: auto;
+    }
+    #salario{
+      margin-bottom: 10px;
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid orange;
+      color: orange;
+      outline: none;
+      background-color: black;
+      font-size: 5px;
+    }
+    #calcular{
+      margin-top: 10px;
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid orange;
+      color: orange;
+      background-color: black;
+      transition: ease-in-out 0.5s;
+    }
+    #calcular:hover{
+      background-color: white;
+  
+    }
+    #resultado{
+      margin-top: 10px;
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid orange;
+      color: orange;
+      background-color: black;
+      width: auto;
+      height: auto;
+    }
+  }
+
+  
+  @media screen and (max-width: 219px){
+    h1{
+      color:orange;
+      font-size: 25px;
+    }
+    .container{
+      display: flex;
+      flex-direction: column;
+      margin-top:  1px;
+      width: auto;
+      height: auto;
+    }
+    #salario{
+      margin-bottom: 10px;
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid orange;
+      color: orange;
+      outline: none;
+      background-color: black;
+      font-size: 5px;
+    }
+    #calcular{
+      margin-top: 10px;
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid orange;
+      color: orange;
+      background-color: black;
+      transition: ease-in-out 0.5s;
+    }
+    #calcular:hover{
+      background-color: white;
+  
+    }
+    #resultado{
+      margin-top: 10px;
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid orange;
+      color: orange;
+      background-color: black;
+      font-size: 10px;
+      
+    }
+  }
+
+  
